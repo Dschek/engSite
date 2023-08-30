@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #6A35FF;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+.section-wraper{
+    margin: auto;
+    max-width: 1440px;
+}
+
+header .nav-link, header .navbar-brand {
+    color: white;
+}
+
+header .nav-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    transition: all .3px;
+    transform: scale(0);
+}
+
+header .nav-link:hover::after {
+    transform: scale(1);
+}
+header .nav-link:hover{
+    font-weight: 700;
+}
+.header-description{
+display: flex;
+flex-flow: column;
+justify-content: center;
+gap: 1rem;
+}
+.autor-name{
+    background-color: bisque;
+    color: mediumslateblue;
+}
+.comment1{
+    color: deeppink;
+}
+#home .pay-btn{
+    background-color: #6A35FF;
+    width:25rem;
+}
+#program{
+    background-color: #9f7dfc;
+}
+#program .card{
+    /* border-color:#6A35FF; */
+    min-width: 33%;
+    padding: 0;
+}
+#program .card-body{
+    text-align: center;
+    background-color: bisque;
+}
+#program h5{
+    color: deeppink;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    
+}

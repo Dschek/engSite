@@ -49,6 +49,9 @@ gap: 1rem;
     background-color: #6A35FF;
     width:25rem;
 }
+#home{
+    background-color: #9f7dfc;
+}
 #program{
     background-color: #9f7dfc;
 }
@@ -68,6 +71,15 @@ ul{
     padding: 0;
     list-style-type: none;
 }
-a{
-    
+#contact{
+    padding: 1% 0%;
+    text-align: center;
+    background-color: #6A35FF;
+    color: white;
+}
+#footer{
+    padding: 1% 0%;
+    background-color: #dcd2f8;
+    font-size: small;
+    text-align: center;
 }
